@@ -794,8 +794,8 @@ html body .menu_responsive .contenedor-responsive {
 
   #left_nav_title {
       color: #fff !important;
-      font-size: 22px !important;
-      padding: 1% 0 0 !important;
+      font-size: 16px !important;
+      padding: 10px 0 !important;
   }
 
 
@@ -1148,7 +1148,7 @@ html body #logoArea a img {
   /*#box .sorting_controls .selector_paginador { height: 25px;    margin-bottom: 0px;    padding-bottom: 5px;    overflow: hidden;    background-attachment: scroll;    background-image: url("../images/drop-down-arrow.png");    background-repeat: no-repeat;    background-position: 73px 1px;    border: 0px none;    text-decoration: none;    width: 137px;	font-size:11px;}
   #box .sorting_controls #num_productos{width: 104px; margin-bottom: 2%;}*/
   #box .sorting_controls .styled_select{width: 104px;	margin-bottom: 2%; background-position: 73px 1px; font-size:11px; height: 25px; padding-bottom: 5px;}
-  #box .sorting_controls .styled_select .drop_down_country{width: 104px; font-size: 11px;margin-top: -8px;}
+  #box .sorting_controls .styled_select .drop_down_country{width: 104px; font-size: 11px;margin-top: -4px;}
   .sin_link {width: 11px !important;}
   #box .contentgrad_header .paging ul li {display: block;    padding-top: 5px;    text-align: center;    width: 24px;    height: 23px;	font-size:11px; }
   #box .contentgrad_header .paging ul li img {width: 24px; height: 23px;}

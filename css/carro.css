@@ -5,13 +5,13 @@
 }
 #Contenedor
 {
-  background-color: #f1f1f1 !important;
+  background-color: #fff !important;
   padding-top: 20px;
   z-index: initial !important;
 }
 #footer
 {
-  background-color: #f1f1f1 !important;
+  background-color: #fff !important;
 }
 #page
 {
@@ -19,7 +19,7 @@
 }
 #shopCart_continue_button_one .checkoutBtn, #shopCart_continue_button .checkoutBtn
 {
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 14px;
   font-weight: bold;
   width: 202px;
@@ -27,11 +27,12 @@
 #shopCart_continue_button_one .button-container, #shopCart_continue_button .button-container
 {
   line-height: 19px;
+  text-transform: uppercase;
 }
 .TituloCarro
 {
-  color: #000000;
-  font-family: Tahoma, Verdana;
+  color: #818180;
+  font-family: Open Sans, Verdana;
   font-size: 24px;
   font-stretch: normal;
   font-style: normal;
@@ -104,7 +105,7 @@
 #order_details .warranty_label
 {
   color: #000000;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   font-stretch: normal;
   font-style: normal;
@@ -153,7 +154,7 @@
 {
   border: #ffffff solid 0 !important;
   color: #000000;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   font-stretch: normal;
   font-style: normal;
@@ -237,14 +238,14 @@ p.item-quantity > input
   width: 60px;
 }
 .mas_mobile{
-  text-decoration: underline;
-  font-family: Tahoma,Verdana;
+
+  font-family: Open Sans,Verdana;
   font-size: 12px;
 }
 .total-summary-line .total_details, .total-summary-line .total_figures
 {
   color: #000000;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 14px;
   font-stretch: normal;
   font-style: normal;
@@ -270,15 +271,15 @@ p.item-quantity > input
 #continue_shopping_button a
 {
   color: #f27925 !important;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
-  text-decoration: underline;
+
   text-transform: none;
 }
 #OrderTotalsDisplay .tarjeta_mas_total
 {
   color: #f27925;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 16px;
 }
 #WC_SingleShipmentOrderTotalsSummary_td_9, #WC_SingleShipmentOrderTotalsSummary_td_13
@@ -299,7 +300,7 @@ p.item-quantity > input
 }
 .warranty_link span
 {
-  text-decoration: underline;
+
   text-transform: none !important;
 }
 .warranty_link
@@ -315,7 +316,7 @@ p.item-quantity > input
 .CodigoProm
 {
   color: #000000;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   height: 14px;
   position: relative;
@@ -334,11 +335,15 @@ p.item-quantity > input
   height: 16px;
   text-align: center;
   width: 154px;
+  -webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
+text-transform: uppercase;
 }
 .promotion_button_active a
 {
   color: #f27925 !important;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   font-weight: bold;
   height: 14px;
@@ -410,7 +415,7 @@ p.item-quantity > input
 .Code_Pro1
 {
   color: #000000;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   font-stretch: normal;
   font-style: normal;
@@ -429,7 +434,7 @@ p.item-quantity > input
 .Code_Pro2 strong
 {
   color: #000000;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   left: 39px;
   position: relative;
@@ -450,7 +455,7 @@ p.item-quantity > input
 .Code_Pro4
 {
   color: #999999;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   margin-top: 14px;
   width: 100% !important;
 }
@@ -497,7 +502,7 @@ p.item-quantity > input
 .textEmpty
 {
   color: #4a4a4a;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 24px;
   margin-left: 5px;
 }
@@ -505,9 +510,9 @@ p.item-quantity > input
 {
   color: #f27925;
   cursor: pointer;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 14px;
-  text-decoration: underline;
+
 }
 .checkoutPage #main_content_wrapper
 {
@@ -540,7 +545,7 @@ p.item-quantity > input
 .WarrantyNewModalHeader
 {
   color: #000000;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 21px;
   height: 29px;
   letter-spacing: 0.9px;
@@ -551,7 +556,7 @@ p.item-quantity > input
 .WarrantyNewModalMessage
 {
   color: #999999;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   height: 44px;
   line-height: 1.57;
@@ -563,7 +568,7 @@ p.item-quantity > input
 .warranty_type_header
 {
   color: #4a4a4a;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 14px;
   height: 17px;
   width: 72px;
@@ -606,14 +611,14 @@ p.item-quantity > input
   background-color: #EEE;
   border: #EEE solid 1px;
   color: #4a4a4a;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 14px;
   text-align: center;
 }
 .warrantyTypeDescription
 {
   color: #999999;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   line-height: 1.5;
   padding-bottom: 14px;
@@ -648,7 +653,7 @@ p.item-quantity > input
   color: #fff;
   cursor: pointer;
   float: left;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 14px;
   font-weight: bold;
   height: 45px;
@@ -672,11 +677,11 @@ p.item-quantity > input
 .mas_protection
 {
   color: #f27925;
-  font-family: Tahoma, Verdana;
+  font-family: Open Sans, Verdana;
   font-size: 12px;
   margin: 10px 150px 10px 140px;
   text-align: center;
-  text-decoration: underline;
+
 }
 /*input[type="radio"]:checked:before
 {
@@ -1879,14 +1884,14 @@ border-radius: 0;
   .name_prod
   {
     color: #000000 !important;
-    font-family: Tahoma,Verdana !important;
+    font-family: Open Sans,Verdana !important;
     font-size: 12px !important;
     height: auto !important;
   }
   .item_gray
   {
     color: #999999 !important;
-    font-family: Tahoma,Verdana !important;
+    font-family: Open Sans,Verdana !important;
     font-size: 10px !important;
     position: relative;
     top: 3px;
@@ -2254,9 +2259,9 @@ div[id^="warranty_modal_tooltip_"] .dijitTooltipContainer {
   margin-right: 14px;
   color: #f27925 !important;
   cursor: pointer;
-  font-family: Tahoma,Verdana;
+  font-family: Open Sans,Verdana;
   font-size: 12px;
-  text-decoration: underline;
+
   margin-left: 10px;
   padding-top: 2px;
 }
@@ -2273,7 +2278,7 @@ div[id^="warranty_modal_tooltip_"] .dijitTooltipContainer {
 .TitleModal
 {
   color: #000000;
-  font-family: Tahoma,Verdana;
+  font-family: Open Sans,Verdana;
   font-size: 24px;
   letter-spacing: 0.9px;
   padding-bottom: 20px;
@@ -2289,7 +2294,7 @@ div[id^="warranty_modal_tooltip_"] .dijitTooltipContainer {
 }
 .WarrantyNewModalMessage {
     color: #999999;
-    font-family: Tahoma,Verdana;
+    font-family: Open Sans,Verdana;
     font-size: 14px;
     height: 44px;
     line-height: 1.57;
@@ -2322,7 +2327,7 @@ div[id^="warranty_modal_tooltip_"] .dijitTooltipContainer {
     color: #fff;
     cursor: pointer;
     float: left;
-    font-family: Tahoma,Verdana;
+    font-family: Open Sans,Verdana;
     font-size: 14px;
     font-weight: bold;
     height: 40px;
@@ -2333,9 +2338,9 @@ div[id^="warranty_modal_tooltip_"] .dijitTooltipContainer {
 .mas_protection a{
     color: #f27925 !important;
     cursor: pointer;
-    font-family: Tahoma,Verdana;
+    font-family: Open Sans,Verdana;
     font-size: 12px;
-    text-decoration: underline;
+
 }
 .carroWarrantyModal #warrantyPriceCheckButton span{
     position: relative;

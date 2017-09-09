@@ -17,26 +17,26 @@
         font-weight: bold;
         position: relative;
         top: -152px;
-        
+
         /*MHTN: modifid for Mis datos text-margin left, by rahul*/
         margin-left: 5px;
-  
-    }  
+
+    }
   /*End Defect 535 */
-    
+
     /*MHTN: checkbox margin for mobile, mis datos, by Rahul*/
     .checkbox {
     margin-left: 8px;
     }
-    
+
     html body .mainHeader {
       display: none; }
     html body #mainHeader {
       height: auto; }
-    /* RADAR 
-    html body #WC_ShipmentDisplay_div_4 > img 
+    /* RADAR
+    html body #WC_ShipmentDisplay_div_4 > img
     {
-      display: none; 
+      display: none;
     }*/
     /*html body .genericESpot {
       display: none; }
@@ -47,13 +47,13 @@
     html body #header, html body #mainHeader, html body #logoArea, html body #checkout_crumb, html body #checkout_crumb .crumb, html body #page, html body #main_content_wrapper , html body .address_wrap{
       width: 100%; }
 
-      
-    /* Radar 
+
+    /* Radar
     html body .footer_sc {
       width: 100% !important; }
       */
     html body .footer_resp_sup {
-      width: 80% !important; 
+      width: 80% !important;
       margin-top: -116px !important;  /*MHTN:647 in mobile footer space fixed, by rahul.ranjan*/
       }
     html body .footer_security {
@@ -75,12 +75,12 @@
         width: 100%; }
       html body #Contenedor #page .dijitContentPane.pad-10 {
         position:relative;
-        height:350px; 
+        height:350px;
       }
 
       html body #Contenedor #page .dijitContentPane.pad-10 {
         position:relative;
-        height:350px; 
+        height:350px;
       }
       html body #Contenedor #page .dijitContentPane.pad-10 .credito{
         position: absolute;
@@ -106,11 +106,11 @@
         background-color:#eaf3f9;
          }
       html body #Contenedor #box .main_header_text,html body #Contenedor .content_header .main_header_text {
-        white-space: normal; 
+        white-space: normal;
       }
       html body #Contenedor #box .main_header_text{
         margin:15px 0 !important;
-        background-color: #eaf3f9;/* Agrega Radar */  
+        background-color: #eaf3f9;/* Agrega Radar */
         float:left;
         width:100%;
         padding:3%;
@@ -124,7 +124,7 @@
       html body #Contenedor .payment-method {
         margin: 0;
         padding: 0; }
-    html body #factura {         
+    html body #factura {
       width: 100%;
       display: block;
       margin: 0 auto; }
@@ -143,7 +143,7 @@
       padding: 9px; }
       html body #invoice_modal h1 {
         padding: 10px 15px;
-        margin: 0; }    
+        margin: 0; }
     html body .dijitContentPane {
       width: 100%;
       float: left;
@@ -229,8 +229,6 @@
       -moz-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease; }
-    html body #giftCard_Target .inputleft, html body #novios_Target .inputleft {
-      width: 100%; }
     html body #giftCard_Target #GC_Balance_Apply {
       float: left;
       width: 48%; }
@@ -238,28 +236,9 @@
       width: 100%;
       padding: 5px;
       height: 35px; }
-    html body #novios_Target input {
-      width: 95%; }
-    html body #novios_inOut.activoboton, html body #giftCard_inOut.activoboton {
-      background-color: #EBF4FB; }
-    html body #NoviosContainer {
-      width: 100%;
-      height: auto;
-      padding-bottom: 20px; }
-      html body #NoviosContainer #novios_modal {
-        width: 100%;
-        height: auto; }
-        html body #NoviosContainer #novios_modal .registry_input {
-          width: 100%;
-          margin: 10px 0; }
-          html body #NoviosContainer #novios_modal .registry_input input {
-            width: 100%;
-            margin: 0; }
-        html body #NoviosContainer #novios_modal .section {
-          width: 100%; }
-          html body #NoviosContainer #novios_modal .section #novios_results_area {
-            width: 100%; } 
 
+    html body #giftCard_inOut.activoboton {
+      background-color: #EBF4FB; }
 
          /* Radar Agrega */
           html body #Contenedor #box .checkout_subheading .main_header_text{
@@ -276,7 +255,7 @@
             font-weight: bold;
           }
 
-          .payment-method .column > div {                      
+          .payment-method .column > div {
             width: 120%;
           }
 
@@ -306,7 +285,7 @@
               -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
 
           #GiftcardAccordion.displayMenu{
@@ -314,7 +293,7 @@
               -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
           #errorGiftCard{
             height:80px;
@@ -337,7 +316,7 @@
             height:auto;
             min-height:0;
           }
-         
+
           html body #infoDescuentos.white-popup #tooltip_popup{
             width:100%;
             height:auto;
@@ -347,9 +326,9 @@
           html body #infoDescuentos.white-popup #tooltip_popup .bodyarea{
             font-size:15px;
             border:0;
-            box-shadow:           0 0 0 transparent; 
+            box-shadow:           0 0 0 transparent;
             -moz-box-shadow:      0 0 0 transparent;
-            -webkit-box-shadow:   0 0 0 transparent; 
+            -webkit-box-shadow:   0 0 0 transparent;
           }
 
           /*texto-codigo-novios*/
@@ -376,7 +355,7 @@
           .radioDiv{
             position:relative;
           }
-          .RadioPayRemplazo{
+          .RadioPayRemplOpen{
             width:20px;
             height:20px;
             top:4px;
@@ -388,7 +367,7 @@
             background-position:0 0;
             background-repeat:no-repeat;
           }
-          .RadioPayRemplazo.marcado{
+          .RadioPayRemplOpen.marcado{
             background-image: url('../images/c1hover.png');
             background-position:0 0;
             background-repeat:no-repeat;
@@ -414,7 +393,7 @@
             -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
 
           html body #gift_wrapper.open{
@@ -423,7 +402,7 @@
             -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
           /*MODUL0 superior*/
           html body #contactCardArea, html body #contactToolsArea, html body #contactReferenceArea{
@@ -471,9 +450,9 @@
           }
 
           html body .dijitDropDownButton{
-            width: auto; 
-            padding: 0%; 
-            background: transparent; 
+            width: auto;
+            padding: 0%;
+            background: transparent;
           }
           /*accordion_head*/
           .accordion_head{
@@ -564,7 +543,7 @@
           }
           .productDetail a:hover ,.details a:hover{
             text-decoration:underline;
-            
+
           }
           .productDetail h3{
             font-size:14px;
@@ -572,7 +551,7 @@
             padding:0 0 10px;
             float:left;
           }
-          
+
           .details{
             background-color:#eaf3f9;
           }
@@ -671,7 +650,7 @@
             width:100%;
           }
 
-        
+
           #gift_sender_text{
             width:100%;
           }
@@ -692,7 +671,7 @@
             padding-bottom:0;
           }
           #sender{
-            display: none;/* Agrega Radar*/            
+            display: none;/* Agrega Radar*/
             position:absolute;
             top:175px;
             z-index:9;
@@ -704,7 +683,7 @@
             -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
 
             .product_structure.open{
@@ -713,7 +692,7 @@
             -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
           .garantia{
             width:90%;
@@ -1004,11 +983,11 @@
                 padding-top:0;
                 text-align: left;
               }
-              
+
               /* Agrega RADAR */
               #editLink {
                margin-left: 10%;
-              }              
+              }
               .caja-direccion-boton {
                   margin-left: 20%;
               }
@@ -1016,7 +995,7 @@
                 margin-top: 65px;
               }
               /* Fin Agrega RADAR */
-              
+
 
               html body .caja-direccion{
                   height:auto;
@@ -1060,7 +1039,7 @@
                   display:none;
               }
             /** 1084 css sprite **/
-	
+
   #NuevaDireccionContainer a#linkCloseModal {
     position: absolute;
     top: 0px;
@@ -1221,7 +1200,7 @@
       html body #unregistered_form form{
         width:100%;
         float:left;
-        
+
       }
       #box .content_footer .unregistered{
         margin:10px 0 0!important;
@@ -1293,7 +1272,7 @@
       html body #novios_modal span.button-wrapper-radius{
         width:100%;
         margin:0;
-      } 
+      }
 
       #btnsAcordion{
         width:100%;
@@ -1383,8 +1362,8 @@
           }
 	  /* MHTN: Modal "Mi cuenta" made by Felipe Ojeda */
           #left_nav{
-            z-index:0;     
-     	 top: 5px;   
+            z-index:0;
+     	 top: 5px;
           			}
           #left_nav .left_nav_container{
             display:block;
@@ -1393,19 +1372,7 @@
           #left_nav ul{
             float:left;
             width:100%;
-            /*MHTN Defect 437 changed margin-top:44px for 6px */
-              /*Start MHTN Defect 472*/
-                /*Start MHTN Defect 535 26px for 10%*/
-            margin-top:10%;
-                 /*End MHTN Defect 535*/
-               /*End MHTN Defect 472*/
-            /*End MHTN Defect 408 */
-
-            /*MHTN Defect 437 changed padding 0 3% for 0 1% */
-              /*Start MHTN Defect 472*/
-            padding: 0 4%;
-              /*End MHTN Defect 472*/
-            /*MHTN Defect 408*/
+            margin-top:73px;
           }
           #left_nav ul li{
             float:left;
@@ -1414,16 +1381,16 @@
             border-right:1px solid #333;
             margin:0;
           }
-          
+
           #left_nav ul li:first-child{
               padding-left:0;
-          }     
+          }
 
           #left_nav ul li:first-child + li{
              border: 0 !important;
-          }         
+          }
 
-          
+
           #left_nav ul li:last-child{
               border-right:0;
           }
@@ -1510,7 +1477,7 @@
           #box .required-label{
             width:100%;
             text-align:right;
-            /*margin:20px 0 5px;            
+            /*margin:20px 0 5px;
             padding:3%;*/
 
           }
@@ -1534,17 +1501,17 @@ margin-top: 23px;
  		#tab_compra_tienda {
  		margin-top: -3px;
  				}
- 			/* MHTN: Modal "estilo btn" made by Felipe Ojeda */	
+ 			/* MHTN: Modal "estilo btn" made by Felipe Ojeda */
  				.estilobtnenviar{
  				margin-top:-22px !important;
 						}
           .no-active a {
             color:#0099cc !important;
-           
+
           }
 
           #WC_UserRegistrationUpdateForm_div_24 a {
-            
+
             font-weight: bold !important;
           }
 
@@ -1555,8 +1522,8 @@ margin-top: 23px;
 
           .input_label {
              margin-top: 20px;
-             width: 100%;             
-          }        
+             width: 100%;
+          }
          /*MODAL*/
          /*html body #Contenedor #page .dijitContentPane{
           width:100%;
@@ -1569,7 +1536,7 @@ margin-top: 23px;
          html body #Contenedor #page #MyAccountCenterLinkDisplay_Widget.modalemerge{
             z-index:99999;
          }
-        
+
          #Contenedor #page #NuevaDireccionWidgetHidden #NuevaDireccionContainer{
               left: -1px !important;
               top: -280px !important;
@@ -1582,7 +1549,7 @@ margin-top: 23px;
 
          #buttonAceptarMap_MC{
           display: none !important;
-         } 
+         }
 
          #AddressForm{
             z-index: 9999 !important;
@@ -1624,14 +1591,14 @@ margin-top: 23px;
 
   /*.dijitTooltip  {
           background-color: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-          box-shadow: none !important;         
-          left: 8% !important;    
-          margin-bottom: -19px !important;       
+          box-shadow: none !important;
+          left: 8% !important;
+          margin-bottom: -19px !important;
 
   }
 
   #dijit__MasterTooltip_0 .dijitTooltipConnector{
-    display: none !important;    
+    display: none !important;
   }
 
   .dijitTooltipContainer {
@@ -1639,7 +1606,7 @@ margin-top: 23px;
      background-color:  transparent  !important;
      left: -15px !important;
   }*/
-  #new_address_modal {   
+  #new_address_modal {
     top: -37px !important;
   }
 
@@ -1656,7 +1623,7 @@ margin-top: 23px;
   }
 
 
-  .content_header {   
+  .content_header {
     padding: 25px 9px !important;
   }
 
@@ -1671,7 +1638,7 @@ margin-top: 23px;
     padding:0 !important;
     left:0 !important;
     position: relative !important;
-    
+
   }
     html body .dijitTooltipDialog{
     padding-top:40px !important;
@@ -1688,7 +1655,7 @@ margin-top: 23px;
    #WC_Confirm_Cancelar_Button_2 .button-wrapper-radius{
       font-size: 10px !important;
    }
-      
+
 }
 /*TABLET HEREDADOS*/
   @media screen and (min-width: 641px) and (max-width: 970px) {
@@ -1730,7 +1697,7 @@ margin-top: 23px;
       html body .checkoutFooterZone1_cont .secure_seal {
         width: 120px;
         height: 35px;
-        float: left; } 
+        float: left; }
 
 
         /*quita espacio blanco en mis direcciones */
@@ -1743,21 +1710,21 @@ margin-top: 23px;
         }
 
 
-        /*#left_nav .left_nav_options {      
-          min-height: 127px !important;      
+        /*#left_nav .left_nav_options {
+          min-height: 127px !important;
         }
 
         #left_nav .left_nav_container {
-           min-height: 127px !important;    
+           min-height: 127px !important;
         }
 
 
-        #left_nav {   
-            min-height: 127px !important;  
+        #left_nav {
+            min-height: 127px !important;
         }*/
 
 }
-    
+
 @charset "utf-8";
 /*SMALL HEREDADOS*/
 
@@ -1767,8 +1734,8 @@ margin-top: 23px;
 
   .details dd h5 {
     font-weight: bold !important;
-  } 
-  
+  }
+
   /*Start Defect 535 New style for titulo "Estado de entrega" */
   .Title_Direccion{
     top: -100px;
@@ -1776,22 +1743,22 @@ margin-top: 23px;
     font-size: 14px !important;
     font-weight: bold;
     position: relative;
-  }  
+  }
 /*End Defect 535 */
 
   #contenedor-alternativas .caja-alternativa .caja-alternativa-arriba {
   	padding-left: 17px;
   	padding-right: 10px;
   }
-  
+
     html body .mainHeader {
       display: none; }
     html body #mainHeader {
       height: auto; }
-    /* RADAR 
-    html body #WC_ShipmentDisplay_div_4 > img 
+    /* RADAR
+    html body #WC_ShipmentDisplay_div_4 > img
     {
-      display: none; 
+      display: none;
     }*/
 
     #ConfirmationWidgetHidden{
@@ -1803,7 +1770,7 @@ margin-top: 23px;
       width: 100%; }
     html body #header, html body #mainHeader, html body #logoArea, html body #checkout_crumb, html body #checkout_crumb .crumb, html body #page, html body #main_content_wrapper {
       width: 100%; }
-    /* Radar 
+    /* Radar
     html body .footer_sc {
       width: 100% !important; }
       */
@@ -1826,7 +1793,7 @@ margin-top: 23px;
       overflow: hidden; }
       /*MHTN: Ordertracking margin mobile, by rahul.ranjan*/
       html body #Contenedor #page .dijitContentPane {
-        width: 100%; 
+        width: 100%;
         /*margin-left: 2px;*/
         /*Prod - Regression Issue*/
         margin-left: 0px;
@@ -1834,12 +1801,12 @@ margin-top: 23px;
         }
       html body #Contenedor #page .dijitContentPane.pad-10 {
         position:relative;
-        height:350px; 
+        height:350px;
       }
 
       html body #Contenedor #page .dijitContentPane.pad-10 {
         position:relative;
-        height:350px; 
+        height:350px;
       }
       html body #Contenedor #page .dijitContentPane.pad-10 .credito{
         position: absolute;
@@ -1869,19 +1836,19 @@ margin-top: 23px;
       html body #Contenedor #box .main_header{
         min-height: 0;
       }
-         
+
       html body #Contenedor #box .main_header_text,html body #Contenedor .content_header .main_header_text {
-        white-space: normal; 
+        white-space: normal;
       }
     /* MHTN: Modal "direccion" made by Felipe Ojeda */
       html body #Contenedor #box .main_header_text{
         margin:-70px 0 ;
-        background-color: #eaf3f9;/* Agrega Radar */  
+        background-color: #eaf3f9;/* Agrega Radar */
       }
       html body #Contenedor .payment-method {
         margin: 0;
         padding: 0; }
-    html body #factura {         
+    html body #factura {
       width: 100%;
       display: block;
       margin: 0 auto; }
@@ -1900,7 +1867,7 @@ margin-top: 23px;
       padding: 9px; }
       html body #invoice_modal h1 {
         padding: 10px 15px;
-        margin: 0; }  	 
+        margin: 0; }
   /* MHTN: Modal "direccion modal" made by Felipe Ojeda */
     html body .dijitContentPane {
       width: 100%;
@@ -1987,36 +1954,17 @@ margin-top: 23px;
       -moz-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease; }
-    html body #giftCard_Target .inputleft, html body #novios_Target .inputleft {
+    html body #giftCard_Target .inputleft {
       width: 100%; }
     html body #giftCard_Target #GC_Balance_Apply {
       float: left;
       width: 48%; }
-    html body #giftCard_Target input, html body #novios_Target input {
+    html body #giftCard_Target input {
       width: 100%;
       padding: 5px;
       height: 35px; }
-    html body #novios_Target input {
-      width: 95%; }
-    html body #novios_inOut.activoboton, html body #giftCard_inOut.activoboton {
+    html body #giftCard_inOut.activoboton {
       background-color: #EBF4FB; }
-    html body #NoviosContainer {
-      width: 100%;
-      height: auto;
-      padding-bottom: 20px; }
-      html body #NoviosContainer #novios_modal {
-        width: 100%;
-        height: auto; }
-        html body #NoviosContainer #novios_modal .registry_input {
-          width: 100%;
-          margin: 10px 0; }
-          html body #NoviosContainer #novios_modal .registry_input input {
-            width: 100%;
-            margin: 0; }
-        html body #NoviosContainer #novios_modal .section {
-          width: 100%; }
-          html body #NoviosContainer #novios_modal .section #novios_results_area {
-            width: 100%; } 
 
 
          /* Radar Agrega */
@@ -2034,7 +1982,7 @@ margin-top: 23px;
             font-weight: bold;
           }
 
-          .payment-method .column > div {                      
+          .payment-method .column > div {
             width: 120%;
           }
 
@@ -2064,7 +2012,7 @@ margin-top: 23px;
               -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
 
           #GiftcardAccordion.displayMenu{
@@ -2072,7 +2020,7 @@ margin-top: 23px;
               -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
           #errorGiftCard{
             height:80px;
@@ -2095,7 +2043,7 @@ margin-top: 23px;
             height:auto;
             min-height:0;
           }
-         
+
           html body #infoDescuentos.white-popup #tooltip_popup{
             width:100%;
             height:auto;
@@ -2105,9 +2053,9 @@ margin-top: 23px;
           html body #infoDescuentos.white-popup #tooltip_popup .bodyarea{
             font-size:15px;
             border:0;
-            box-shadow:           0 0 0 transparent; 
+            box-shadow:           0 0 0 transparent;
             -moz-box-shadow:      0 0 0 transparent;
-            -webkit-box-shadow:   0 0 0 transparent; 
+            -webkit-box-shadow:   0 0 0 transparent;
           }
 
           /*texto-codigo-novios*/
@@ -2134,7 +2082,7 @@ margin-top: 23px;
           .radioDiv{
             position:relative;
           }
-          .RadioPayRemplazo{
+          .RadioPayRemplOpen{
             width:20px;
             height:20px;
             top:4px;
@@ -2146,7 +2094,7 @@ margin-top: 23px;
             background-position:0 0;
             background-repeat:no-repeat;
           }
-          .RadioPayRemplazo.marcado{
+          .RadioPayRemplOpen.marcado{
             background-image: url('../images/c1hover.png');
             background-position:0 0;
             background-repeat:no-repeat;
@@ -2173,7 +2121,7 @@ margin-top: 23px;
             -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
 
           html body #gift_wrapper.open{
@@ -2182,7 +2130,7 @@ margin-top: 23px;
             -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
           /*MODUL0 superior*/
            /*MHT: se arregla titulo despacho by Felipe ojeda*/
@@ -2192,11 +2140,11 @@ margin-top: 23px;
               float;left;
               margin-top: 55px;
           }
-          
+
           /*html body #contactToolsArea{
           	margin-top: 0px !important;
           }*/
-          
+
           /*Se modifica margen top mobile, Felipe Vidal*/
           /* PAR-989 Start*/
           html body #contactToolsArea{
@@ -2206,26 +2154,26 @@ margin-top: 23px;
           html body #contactReferenceArea{
           	margin-top: 0px !important;
           }
-          
+
           #contactCardArea{
           	 margin-top: -40px !important;
           }
-          
+
           /*html body #btnCambiaEdita{
             float:right;
           }*/
-          
+
           /*Modifica Felipe Vidal*/
            /* PAR-989 Start*/
           html body #btnCambiaEdita{
             float:left;
           }
-          
+
           html body #contactToolsArea{
             padding:0% 5% !important;
           }
           /* PAR-989 End*/
-          
+
           #shippingBillingPageNext{
           	margin-top: 5% !important;
           }
@@ -2263,9 +2211,9 @@ margin-top: 23px;
           }
 
           html body .dijitDropDownButton{
-            width: auto; 
-            padding: 0%; 
-            background: transparent; 
+            width: auto;
+            padding: 0%;
+            background: transparent;
           }
           /*accordion_head*/
           /*MHT Correccion despacho acordeon: by Felipe ojeda */
@@ -2284,7 +2232,7 @@ margin-top: 23px;
               filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8c8c8', endColorstr='#9b9b9b',GradientType=0 ) !important;
               margin-top: 34px;
           }
-          
+
           #producto-accordeon-1{
           	margin-top: 0px !important;
           }
@@ -2362,7 +2310,7 @@ margin-top: 23px;
           }
           .productDetail a:hover ,.details a:hover{
             text-decoration:underline;
-            
+
           }
           .productDetail h3{
             font-size:14px;
@@ -2370,7 +2318,7 @@ margin-top: 23px;
             padding:0 0 10px;
             float:left;
           }
-          
+
           .details{
             background-color:#eaf3f9;
           }
@@ -2406,14 +2354,14 @@ margin-top: 23px;
           /*MHTN Defect 532 */
 
           /* Agrega Radar */
-          
+
           /*Start- MHTN: 688 Modified styles in fechadeentrega, as per wireframe Mobile:  by rahul*/
           .details dd h5 {
             font-family: sans-serif !important;
             color: #666;
             font-weight: normal;
           }
-          
+
           .responsive-shipped-data-target  {
     	    	color: #666 !important;
     		}
@@ -2473,7 +2421,7 @@ margin-top: 23px;
               margin-top:5px !important;
 
           }
-          
+
           /* MHT Fixed dispach text area regalos by felipe ojeda */
           #send_greeting{
           margin-top: -19px;
@@ -2487,7 +2435,7 @@ margin-top: 23px;
             width:100%;
           }
 
-        
+
           #gift_sender_text{
             width:100%;
           }
@@ -2508,7 +2456,7 @@ margin-top: 23px;
             padding-bottom:0;
           }
           #sender{
-            display: none;/* Agrega Radar*/            
+            display: none;/* Agrega Radar*/
             position:absolute;
             top:175px;
             z-index:9;
@@ -2520,7 +2468,7 @@ margin-top: 23px;
             -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
 
             .product_structure.open{
@@ -2529,7 +2477,7 @@ margin-top: 23px;
             -webkit-transition: all 0.3s ease;
               -moz-transition: all 0.3s ease;
               -ms-transition: all 0.3s ease;
-              transition: all 0.3s ease; 
+              transition: all 0.3s ease;
           }
           .garantia{
             width:90%;
@@ -2816,11 +2764,11 @@ margin-top: 23px;
                 padding-top:0;
                 text-align: left;
               }
-              
+
               /* Agrega RADAR */
               #editLink {
                margin-left: 10%;
-              }              
+              }
               .caja-direccion-boton {
                   margin-left: 20%;
               }
@@ -2828,7 +2776,7 @@ margin-top: 23px;
                 margin-top: 50px;
               }
               /* Fin Agrega RADAR */
-              
+
 
               html body .caja-direccion{
                   height:auto;
@@ -2856,9 +2804,9 @@ margin-top: 23px;
                 left: 2% !important;
     			top: 0 !important;
     			height: auto;/*MHTN : CLICK AND COLLECT*/
-    			
+
               }
-              
+
               .headerModal{
                 width:100%;
                 float:left;
@@ -2958,7 +2906,7 @@ margin-top: 23px;
       	margin-top: 20px;
       }
       #contenedor-alternativas  .caja-alternativa-arriba img{
-      	margin-bottom: 7px !important;  
+      	margin-bottom: 7px !important;
       	margin-top: -32px !important;
       }
       #ddespachoContainer{
@@ -2992,7 +2940,7 @@ margin-top: 23px;
         margin:0 auto;
         font-size:12px;
       }
-    /* MHT: se arregla alineacion detalle despacho by felipe ojeda */ /*Defect: 600 fixes for mobile*/ 
+    /* MHT: se arregla alineacion detalle despacho by felipe ojeda */ /*Defect: 600 fixes for mobile*/
 .caja-direccion-titulo{
 margin-top: -1px;
 
@@ -3060,7 +3008,7 @@ margin-top: -5px;
       html body #unregistered_form form{
         width:100%;
         padding:0 !important;
-        margin-top: -26px;   
+        margin-top: -26px;
       }
       #unregistered_form .enviar_a {
       	margin-left: 4%;
@@ -3168,7 +3116,7 @@ margin-top: -5px;
       html body #novios_modal span.button-wrapper-radius{
         width:100%;
         margin:0;
-      } 
+      }
 
       #btnsAcordion{
         width:100%;
@@ -3239,7 +3187,7 @@ margin-top: -5px;
       }
       /* Agrega Radar */
       #unregistered_form .col2_ship h3{
-        display: none; 
+        display: none;
       }
 
       #box .required-label{
@@ -3250,53 +3198,53 @@ margin-top: -5px;
 	#AABF_rightContainer{
 		visibility: hidden;
 	}
-	
+
 	#NuevaDireccionWidgetHidden{
 		width: 95% !important;
 	}
-	
+
 	#linkCloseModal,#linkCloseModal .close{
 		display: block !important;
 	}
-	
-	
+
+
 	#WC_AccountForm_div_9{
 		width: 100%;
 	}
-	
+
 	#buttonRefreshMap2{
 		display: none !important;
 	}
-	
+
 	#buttonAceptarMap2, #address3{
 		width: 100% !important;
-		height: 44px !important;		
+		height: 44px !important;
 	}
-	
+
 	#notaPieMap{
 		display: none;
 	}
-	
+
 	#NuevaDireccionContainer .button_items.buttonMap2{
 		margin-top: 0 !important;
     	padding-right: 0 !important;
 	}
-	
+
 	#my_address_modal h1{
 		font-size: 18px;
 	    font-weight: normal;
 	    padding-left: 10px;
 	}
 
-  
+
   #dijit__MasterTooltip_0{
     left: 0 !important;
   }
-  
+
 #dijit__MasterTooltip_0 .dijitTooltipConnector{
     display: none !important;
   }
-  
+
   .cajaConfirmacion {
     height: auto;
     margin-left: 0;
@@ -3304,7 +3252,7 @@ margin-top: -5px;
     left: 0 !important;
     width: 100%;
 	}
-	
+
 	.cajaConfirmacionTexto{
 		width: 70%;
 	}
@@ -3313,107 +3261,107 @@ margin-top: -5px;
 	}
 
   #cajaConfirmationTexto2_2{
-	
+
 	padding-left: 5%;
 	width: 100%;
 	}
-	
+
 	.confOKButton2_2{
 		padding-right: 0 !important;
 	}
-	
+
 	.button-wrapper-radius.medium_bigger{
 		padding: 5px;
 		/*MHTN: Added for Mis datos page mobile view,margin for button, by Rahul.*/
 		/*margin-top: -125px !important;*/
 	}
-	
+
 	#alertMessageContainer_2{
 		 margin-bottom: 20px;
 	}
-     
+
      #alertMessage_2{
      	font-size: 11px;
      }
-     
+
      #caja-no-encontrado{
 	    left: 0;
     	margin: 0;
-    	top: 213.433px;	
-    	width: auto;	
+    	top: 213.433px;
+    	width: auto;
      }
-     
+
      #alertMessageContainer_1{
      	padding: 0;
      }
-     
+
      .caja-no-encontrado-texto, .alertMessage {
  	   font-size: 12px;
  	   width: 90%;
 	 }
-	 
+
 	 #buttonRefreshMap{
 	 	display: none !important;
 	 }
-	 
+
 	 #autoSuggest_Result_div_forStreetField{
 	 	z-index: 90;
 	 }
-	 
+
 	 #buttonAceptarMap{
 	    margin: 0 !important;
     	padding: 0 !important;
     	width: 100%;
 	 }
-	 
+
 	 #novios_modal > form {
 		    float: left;
 		  	transform: scale(-1);
 		  	-webkit-transform: scaleY(-1);
 		}
-		  
+
 		  #novios_modal > form > div{
 		  	transform: scale(-1);
 		  	-webkit-transform: scaleY(-1);
 		  }
-	 
+
 	 	  html body #NoviosContainer #novios_modal .section #novios_results_area .result_novios_responsive{
 		   		overflow:hidden;
 		   }
-		   
+
 		   html body #NoviosContainer #novios_modal .section #novios_results_area .result {
 		   		padding: 5px 10px 5px 5px;
 		   }
-		   
+
 		   .nombre-novios-responsive{
 		   		font-weight: bold;
 		    }
-		    
-		   
+
+
 		   #novios_results_area .seleccionar {
 		   		padding: 2px 4px;
 		   		font-weight: bold;
 		   		font-size: 12px;
 		   }
-		   
+
 		   .result_label{
 		   		margin: 10px 0 4px;
 		   		font-size: 12px;
 		   }
-		   
+
 		   #novios_results_area .result p {
 		   		font-size: 12px;
 		   }
-		  
+
 		  .error-responsive{
 			    color: #FF0000;
 			}
-	
-		
+
+
 		.dijitTooltipRight {
     		padding-left: 0;
 		}
-	 
+
 	 		#NuevaDireccionWidgetHidden{
               	height: 150% !important;
               }
@@ -3429,20 +3377,20 @@ margin-top: -5px;
 	float:left;
 	width:50%;
 	}
-	
+
 .novios_2 span {
 	float:right;
 	width:53% !important;
 	}
 	.alertMessageContainer {
-		 margin: 20px 0 30px;	 
+		 margin: 20px 0 30px;
 	}
-	
+
 	/*START: CenReqNum#819 */
   	.mapcity{margin-bottom: 0px;margin-top: 0px;}
   	#NuevaDireccionContainer .content_footer {padding-top: 10px !important;}
   	/*END: CenReqNum#819 */
-  	
+
   	.my_account .button-wrapper-radius {
     	margin-top: -125px !important;
 	}
@@ -3476,7 +3424,7 @@ margin-top: -5px;
         border-top-style: solid;
         border-bottom-style: solid;
         border-top-color: #EBF4FB;
-        border-bottom-color: #EBF4FB; 
+        border-bottom-color: #EBF4FB;
       }
       html body .checkoutFooterZone1_cont .footer_links {
         width: 80%;
@@ -3496,20 +3444,20 @@ margin-top: -5px;
       html body .checkoutFooterZone1_cont .secure_seal {
         width: 20%;
         height: 35px;
-        float: left; } 
+        float: left; }
 
       /*Agrega Radar */
       #mainHeader{
         width: 100%;
-      }      
-      
+      }
+
       #contenedor-alternativas{
-        width: 0; 
-      }      
-      
+        width: 0;
+      }
+
       #content_wrapper{
-        width: 100%;  
-      } 
+        width: 100%;
+      }
 
 
 
@@ -3522,14 +3470,14 @@ margin-top: -5px;
     position: unset !important;
   }
   #content_wrapper{
-       width: 100%;  
+       width: 100%;
        overflow: visible !important;
    }
-   
+
    .caja-alternativa-abajo{
    		padding: 0 !important;
-   } 
-   
+   }
+
    .caja-alternativa-abajo a, .caja-alternativa-abajo a:visited, .caja-alternativa-abajo a:hover{
    	   	padding: 0 !important;
    }
@@ -3542,20 +3490,20 @@ margin-top: -5px;
     overflow-x: visible !important;
     position: unset !important;
   }
-  
+
   #content_wrapper{
-       width: 100%;  
+       width: 100%;
        overflow: visible !important;
    }
-   
+
     .caja-alternativa-abajo{
    		padding: 0 !important;
-   } 
-   
+   }
+
    .caja-alternativa-abajo a, .caja-alternativa-abajo a:visited, .caja-alternativa-abajo a:hover{
    	   	padding: 0 !important;
    }
- 
+
 }
 
 
@@ -3564,7 +3512,7 @@ margin-top: -5px;
 	    float: right;
 	    width: 58% !important;
 	}
-	
+
 	.title_only-type_delivery{
     	padding-left: 0 !important;
     }
@@ -3582,14 +3530,14 @@ margin-top: -5px;
   padding: 13px;
   width: 96%;
   }
-  
-  
+
+
 #caja_superior .title img{
   display: block;
   float: left;
   margin-top:9px;
   }
-  
+
 #caja_superior .title span{
   font-weight: bold;
   font-size: 14px;
@@ -3598,9 +3546,9 @@ margin-top: -5px;
   display: block;
   float: left;
   }
-  
-  
-  
+
+
+
 .caja_superior_abajo{
   background: none repeat scroll 0px 0px #09C;
     color: #FFF;
@@ -3652,8 +3600,8 @@ margin-top: -5px;
 
 /*MHTN: CLICK AND COLLECT - add new estyle title "Elige tu direccion" made by Miguel Penaloza*/
 .title_only-type_delivery{
-  position:relative; 
-  top:  -28px; 
+  position:relative;
+  top:  -28px;
   left:137px
 }
 #span_shipping_header_SHIPPING_INFO_CHOOSING{
@@ -3670,7 +3618,7 @@ margin-top: -5px;
  }
 
  #contenedor-alternativas  .caja-alternativa-arriba img{
-    margin-bottom: 7px !important;  
+    margin-bottom: 7px !important;
     margin-top: -32px !important;
     float: left;
    	left: 57px;
@@ -3731,7 +3679,7 @@ margin-top: -5px;
    /*margin-top: 13px !important;*/
    /*PROD REGRESSION ISSUE fix*/
 	   margin-top: 20px !important;
-   /*PROD REGRESSION ISSUE fix*/    
+   /*PROD REGRESSION ISSUE fix*/
   }
 
   #span_shipping_header_SHIPPING_INFO_CHOOSING{
@@ -3743,7 +3691,7 @@ margin-top: -5px;
     /*padding: 2px;
     text-align: center;*/
     width: 100%;
-    height: 70px;   
+    height: 70px;
   }
 
 
@@ -3767,7 +3715,7 @@ margin-top: -5px;
   #caja_superior {
     width: 132%;
   }
-}  
+}
 
 /*Se agrega class para mensaje de cambio de direccion, Felipe Vidal*/
 /* PAR-989 Start*/
@@ -3791,7 +3739,7 @@ margin-top: -5px;
 }
 .Callesuggalign{position:absolute;} /*added for PAR-1060 */
 @media screen and (min-width: 641px)  and (max-width: 960px) {
-	
+
 #contactReferenceArea {
     width: 40% !important;
 }
@@ -3803,7 +3751,7 @@ margin-top: -5px;
 .msj_cambio_dire img {
     margin: 5% 10px 5px 0px;
 }
-	
+
 }
 
 @media screen and (min-width: 768px)  and (max-width: 1024px){

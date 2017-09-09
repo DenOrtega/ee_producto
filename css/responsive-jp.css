@@ -945,7 +945,7 @@ html body .titulo_acordeon {
 		background-color: #666;
 		text-transform: uppercase;
 		color: #fff;
-		font-weight: lighter;
+		font-weight: 600;
 		border-bottom: 1px solid #efefef;
 		position: relative;
 	}
@@ -1017,7 +1017,6 @@ html body .product_specs.left>div.accordion-container {
 @media screen and (min-width: 640px) {
 	html body .product_specs.left>div.accordion-container[role="acordeon_descripcion"],html body .product_specs.left>div.accordion-container[role="acordeon_cambios"]
 		{
-		border-top: 2px solid #fff1e2;
 		padding-top: 5px;
 	}
 }
@@ -1069,11 +1068,11 @@ html body .product_specs.left>div.accordion-container {
 		text-align: center;
 		width: 100%;
 		font-size: 14px;
-		font-weight: bold;
+		font-weight: 600;
 		padding: 15px 0;
 		margin-top: 5px;
 		background-color: #00a0da;
-		font-weight: bold;
+		font-weight: 600;
 		border: 0;
 		cursor: pointer;
 	}
@@ -1430,7 +1429,7 @@ html body .white-popup form.login h5,html body .white-popup form.comentario h5
 	right: 25px;
 	top: 25px;
 	color: #333;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 html body .white-popup form.login h3,html body .white-popup form.comentario h3
@@ -1531,11 +1530,11 @@ html body .white-popup form.login .form-group a.btnCalculate,html body .white-po
 	color: #fff !important;
 	text-align: center !important;
 	font-size: 14px !important;
-	font-weight: bold !important;
+	font-weight: 600 !important;
 	padding: 15px 0 !important;
 	margin-top: 5px !important;
 	background-color: #00a0da !important;
-	font-weight: bold !important;
+	font-weight: 600 !important;
 	border: 0 !important;
 	cursor: pointer !important;
 }
@@ -1671,11 +1670,11 @@ html body #segunda_venta .sv_product.sv_product:first-of-type {
 		font-size: 17px !important;
 		padding: 0 9% !important;
 		margin: 0 0 25px !important;
-		font-weight: lighter !important;
+		font-weight: 600 !important;
 	}
 	html body #segunda_venta h3,html body .pdp_espot h3 {
 		font-size: 18px;
-		font-weight: bold;
+		font-weight: 600;
 		border-bottom: thin solid #999999;
 		margin-left: 9%;
     		margin-right: 9%;
@@ -2354,12 +2353,13 @@ html body .footerContent div.footer_links_3 span {
 		padding: 5px 9px;
 		border-top: 1px solid #ccc; /* se actualiza el color de negro a gris en el listado de prodcutos*/
 	}
-	#three-grid div.subPriceHolder div.price.offerPrice.bold, #three-grid div.subPriceHolder div div.price.offerPrice.bold {
-	   font-weight: bold !important; /* se cambia color de fuente a bold en los precios de los productos*/
+	#three-grid div.subPriceHolder div.price.offerPrice.600, #three-grid div.subPriceHolder div div.price.offerPrice.bold {
+	   font-weight: 600 !important; /* se cambia color de fuente a bold en los precios de los productos*/
 	}
 	#three-grid td.item .description_fixedwidth {
 		height: auto !important;
 		width: 97%;
+		padding-top: 10px;
 	}
 }
 
@@ -2472,7 +2472,7 @@ html body .footerContent div.footer_links_3 span {
 	#content769 .text {
 		float: left;
 		width: 100%;
-		margin: 40px 0 0;
+		margin: 29px 0 0;
 	}
 	#content769 .text h1 {
 		font-size: 24px;
@@ -2522,13 +2522,13 @@ html body .footerContent div.footer_links_3 span {
 	#content769 #three-grid .price {
 		margin-top: 2px;
 		/*MHTN Defect 561 - change value font-size: 16px for 14px */
-		font-size: 14px !important;
+		font-size: 24px !important;
 
 	}
 	/*MHTN Defect 561*/
 	#three-grid div.subPriceHolder div.price.offerPrice.bold span.tarjeta_mas_img {
     	margin-right: 0px !important;
-    	margin-left: 2px !important;
+    	margin-left: 4px !important;
     }
 
 	#main_content_wrapper {
@@ -2537,49 +2537,27 @@ html body .footerContent div.footer_links_3 span {
 		margin-top: 0px;
 	}
 	#left_nav_title {
-		background-color: #666;
-		color: #333;
+		background-color: #8c8c8c;
 		cursor: pointer;
 		float: left;
-		font-size: 16px;
-		font-weight: lighter;
+		font-weight: 400;
 		height: 45px;
-		/*Req1019*/
-		/*margin: 25px 0 39px;*/
-
-		/** fix **/
-		margin: 25px 0 0px;
-
-		padding: 20px 0 0;
+		margin: 25px 0 0;
 		text-align: center;
 		width: 100%;
-		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999),
-			color-stop(1, #cccccc) ) !important;
-		background-image: -o-linear-gradient(bottom, #999999 0%, #cccccc 100%)
-			!important;
-		background-image: -moz-linear-gradient(bottom, #999999 0%, #cccccc 100%)
-			!important;
-		background-image: -webkit-linear-gradient(bottom, #999999 0%, #cccccc 100%)
-			!important;
-		background-image: -ms-linear-gradient(bottom, #999999 0%, #cccccc 100%)
-			!important;
-		background-image: linear, to bottom, #999999 0%, #cccccc 100% !important
-			;
-		filter: progid : DXImageTransform.Microsoft.gradient ( startColorstr =
-			'$color1', endColorstr = '$color2', GradientType = 0 ) !important;
 	}
 	#left_nav_title span {
 		float: right;
 		position: relative;
-		right: 10%;
-		width: 10%; /* se agrega estilo para que al presionar
+		right: 11%;
+		width: 0%; /* se agrega estilo para que al presionar
 		Botón filtrar por no se mueva a la derecha
 		*/
 	}
 	#left_nav {
 		float: left;
 		width: 100%;
-		margin: 0;
+		margin: -30px 0;
 		padding: 0;
 		min-height: 0;
 		overflow: hidden;
@@ -2612,7 +2590,6 @@ html body .footerContent div.footer_links_3 span {
 	#left_nav .left_nav_container .left_nav_options .padding .body588 {
 		float: left;
 		width: 100%;
-		background-color: #fff;
 	}
 	#left_nav .left_nav_container .left_nav_options .padding .body588 ul {
 		float: left;
@@ -2632,9 +2609,10 @@ html body .footerContent div.footer_links_3 span {
 		width: 100%;
 		float: left;
 		margin: 0;
-		padding: 6px 15px;
-		border-bottom: 1px solid #CCCCCC; /* se agrega linea de sepacacion para el filtro de productos PLP */
-		font-size: 14px; /* se aumenta tamaño en texto filtros */
+		padding: 10px 15px;
+		border-bottom: 1px solid #eee; /* se agrega linea de sepacacion para el filtro de productos PLP */
+		font-size: 12px; /* se aumenta tamaño en texto filtros */
+		background: #f6f6f6;
 
 	}
 	#left_nav .left_nav_container .left_nav_options .padding .body588 ul li a:hover
@@ -2645,14 +2623,13 @@ html body .footerContent div.footer_links_3 span {
 	#left_nav .left_nav_container .left_nav_options .padding .body588 .left_sidebar_header_container
 		{
 		border-bottom: 2px solid #fff;
-		border-top: 0px !important;
 		cursor: pointer;
 		float: left;
 		margin-top: 0;
 		padding: 15px 0;
 		width: 100%;
 		text-align: center;
-		background-color: #ccc;
+		background-color: #eee;
 		position: relative;
 	}
 	#left_nav .left_nav_container .left_nav_options .padding .body588 .left_sidebar_header_container span.signal
@@ -2664,11 +2641,11 @@ html body .footerContent div.footer_links_3 span {
 	}
 	#left_nav .left_nav_container .left_nav_options .padding .body588 .left_sidebar_header_container .left_sidebar_header_closed
 		{
-		font-weight: lighter;
+		font-weight: 600;
 	}
 	#left_nav .left_nav_container .left_nav_options .padding .body588 .left_sidebar_header_container .left_sidebar_header
 		{
-		font-weight: lighter;
+		font-weight: 600;
 	}
 /*TCS linea agregada por RADAR  ,
 html body #recom-prod .hiddenRecomendados, html body #recom-vist .hiddenRecomendados{*/

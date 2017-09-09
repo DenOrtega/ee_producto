@@ -124,7 +124,7 @@ color: #818180 !important;
 }
 
 #tab_online_tienda2{
-  margin-bottom: 11px;
+
 }
 /*End New Style for "Estado de Entrega" */
 
@@ -742,6 +742,7 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 }
 #page{
   min-height: 400px;
+  width: 1060px;
 }
 
 .sectionHeader{
@@ -799,50 +800,50 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 }
 
 .contentContainer .tabsTracking li{
-  width: 38%;
+  width: 30%;
   margin-right: 2%;
   background: #8c8c8c;
   float: left;
-  padding: 15px 0 15px 20px;
+  height: 40px;
   text-align: center;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
-  line-height: 12px;
+  line-height: 40px;
   color: white;
   -webkit-border-top-left-radius: 16px;
--webkit-border-top-right-radius: 16px;
--moz-border-radius-topleft: 16px;
--moz-border-radius-topright: 16px;
-border-top-left-radius: 16px;
-border-top-right-radius: 16px;
+  -webkit-border-top-right-radius: 16px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-topright: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .tabTrackingcontent{
   float: left;
-  background: #ff9f36;
   width: 92%;
-  padding: 4%;
+  padding: 2em;
   -webkit-border-radius: 16px;
   -webkit-border-top-left-radius: 0;
   -moz-border-radius: 16px;
   -moz-border-radius-topleft: 0;
   border-radius: 16px;
   border-top-left-radius: 0;
+  background: #8c8c8c;
 }
 
 .tabTrackingcontent p{
   padding: 0 0 15px 0;
 }
 .contentContainer .tabsTracking li.active{
-  background:#ff9f36;
   -webkit-border-top-left-radius: 16px;
--webkit-border-top-right-radius: 16px;
--moz-border-radius-topleft: 16px;
--moz-border-radius-topright: 16px;
-border-top-left-radius: 16px;
-border-top-right-radius: 16px;
+  -webkit-border-top-right-radius: 16px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-topright: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding-left: 20px;
 }
 
 .tableContainer{
@@ -1465,7 +1466,7 @@ margin-right: -187px;
 
   .contentContainer .tabsTracking li, .contentContainer .tabsTracking li.active{
     width: 100%;
-    background: #f27925;
+    background: #666;
     color: #fff;
     text-align:left;
 
@@ -1479,7 +1480,8 @@ margin-right: -187px;
 
   .tabcontent{
     width: 100%;
-    background: transparent;
+    background: rgba(201, 211, 222, 0.39);
+    padding: 2em 1em;
   }
   .tableContainer{
     height: auto;
